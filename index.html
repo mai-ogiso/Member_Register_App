@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This app helps youtubers pick the best background color for their videos">
+	<meta name="keywords" content="youtube, background, lights">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Member list</title>
+
+	<!-- external CSS link -->
+	<!-- Google font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!----------------------------------------------------------
+	This input is always hidden to manage current card no.
+		currentCardNo : 0 (default)
+		currentCardNo : += 1 (If a user clicks "register", current car no += 1.)
+	-->
+	<input type="text" class="hidden" id="currentCardNo" value="0">
+	<!---------------------------------------------------------->
+
+	<main>
+		<section class="glass">
+			<div class="inputMenu">
+				<h1>Member Register</h1>
+				<ul>
+					<li>
+						<label for="name" class="labelItem">Name</label>
+						<input type="text" id="name" autocomplete="off">
+						<label for="birthYear" class="labelItem">Birth Year (A.D.)</label>
+						<input type="number" id="birthYear" value=2000>
+						<label for="chineseZodiac" class="labelItem">Chinese Zodiac</label>
+						<input type="text" id="chineseZodiac" disabled>
+						<label class="labelItem">Pronouns</label>
+						<div class="pronounsDiv">
+							<input type="radio" class="cursor" id="pronounsChoice1" name="pronouns" value="he/him">
+							<label for="pronounsChoice1" class="cursor">he/him</label>
+
+							<input type="radio" class="cursor" id="pronounsChoice2" name="pronouns" value="she/her">
+							<label for="pronounsChoice2" class="cursor">she/her</label>
+
+							<input type="radio" class="cursor" id="pronounsChoice3" name="pronouns" value="they/them">
+							<label for="pronounsChoice3" class="cursor">they/them</label>
+						</div>
+					</li>
+				</ul>
+				<div class="horizonCenter">
+					<button class="button cursor" id="regButton">Register</button>
+				</div>
+			</div>
+			<div class="collectionDiv">
+				<div class="carouselContainer">
+					<div class="carouselSlider">
+					</div>
+				</div>
+				<div class="btnDiv">
+					<button class="cursor hidden" id="prevButton">Prev</button>
+					<button class="cursor hidden" id="nextButton">Next</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<div class="circle1"></div>
+	<div class="circle2"></div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
