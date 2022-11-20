@@ -1,4 +1,4 @@
-# Member Register App <a target="_blank" href="https://mai-ogiso.github.io/Chinese_Zodiac_App/">Visit Here</a>
+# Member Register App <a target="_blank" href="https://mai-ogiso.github.io/Member_Register_App/">Visit Here</a>
   
 In this app, you can create member cards that display their Chinese zodiac as their profile icon.
 
