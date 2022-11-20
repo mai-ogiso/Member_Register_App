@@ -2,8 +2,7 @@
   
 In this app, you can create member cards that display their Chinese zodiac as their profile icon.
 
-https://user-images.githubusercontent.com/95740190/202924332-b0e2de00-6431-4fed-87ef-5cac9fe292f5.mp4
-
+Uploading member_register_app.mp4…
 
 ## How It's Made:
 
